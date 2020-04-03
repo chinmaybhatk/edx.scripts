@@ -71,3 +71,8 @@ sudo /edx/bin/supervisorctl restart edxapp:
 /edx/bin/supervisorctl restart lms
 /edx/bin/supervisorctl restart cms
 /edx/bin/supervisorctl restart edxapp_worker:
+
+
+# restart edx instances If you are using IRONWOOD, use below commands
+sudo /edx/bin/supervisorctl restart all
+
